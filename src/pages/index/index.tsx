@@ -36,6 +36,7 @@ export default function Index() {
         isTure ? '我是真的' : '我是假的'
       }</View>
       <View>{fn()}</View>
+      <View></View>
     </>
 
   )
