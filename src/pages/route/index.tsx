@@ -49,10 +49,19 @@ export default function Route() {
     })
   }
 
+  function handleClickLoading() {
+    Taro.showLoading({
+      title: "正在加载"
+    })
+  }
+
   return (
     <View className='route'>
       <Button onClick={handleClickMessage}>消息弹框</Button>
       <Button onClick={handleClickModel}>对话框</Button>
+      <Button onClick={handleClickLoading}>加载框</Button>
+      <Button onClick={handleClickLoading}>加载框</Button>
+      <Button onClick={handleClickLoading}>加载框</Button>
     </View>
   )
 }
